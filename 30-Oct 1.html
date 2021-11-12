@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            background-color: rgb(95, 95, 218);
+            margin: 0;
+            padding: 0;
+        }
+        .logo {
+            flex: 1;
+            position: relative;
+            
+        }
+        .logo1 {
+            width: 500px;
+            position: absolute;
+            left: 50%;
+            top: 20px;
+        }
+        img {
+            align-self: center;
+            padding: 7% 0 0 30%;
+        }
+        .home {
+            flex: 5;
+        }
+        a {
+            text-decoration: none ;
+            color: lawngreen;
+            display: inline-block;
+            padding: 2.5vh 2vw;
+            font-size: 24px;
+            font-family: cursive;
+        }
+
+        a:hover {
+            background-color:  rgb(147, 147, 240);
+        }
+        .search {
+            flex: 3;
+            position: relative;
+        }
+        input {
+            line-height: 1.2;
+            width: 75%;
+            border-radius: 50px;
+            padding: 5px;
+            outline: none;
+            border: none;
+            position: absolute;
+            top: 20px;
+            left: 25px;
+            padding-left: 35px;
+        }
+        .search1 {
+            position: absolute;
+            top: 21px;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class="material-icons logo1">ac_unit</i>
+
+        </div>
+        <div class="home">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="#">Pricing</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="material-icons search1">search</i>
+        </div>
+    </div>
+</body>
+</html>
