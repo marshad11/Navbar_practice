@@ -68,6 +68,79 @@
             top: 21px;
             left: 30px;
         }
+        .slider {
+            display: flex;
+            margin: 7px;
+        }
+        .photo {
+            flex: 1;
+            border: 2px solid navy;
+            height: 85vh;
+            transition: .4s ease-out;
+            position: relative;
+        }
+        .photo:hover {
+            flex-grow: 5;
+            transition: .7s ease-in;
+        }
+        .content {
+            background-color: black;
+            position: absolute;
+            width: 80%;
+            text-align: center;
+            left: 10%;
+            bottom: 2%;
+            opacity: 0;
+            color: white;
+        }
+        .photo:hover .content {
+            opacity: .5;
+        }
+        .photo1 {
+            background-image: url(./HKR\ logo.jpg);
+            background-repeat: no-repeat;
+            background-position: center ;
+        }
+        .photo2 {
+            background-image: url(./desktop\ Banner\ X\ Stand.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .photo3 {
+            background-image: url(./Dairy\ Engraving.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .photo4 {
+            background-image: url(./Wooden\ Pen\ Engraving.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .photo5 {
+            background-image: url(./Key\ Chain\ Leaser\ Cutting.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .photo6 {
+            background-image: url(./Cup\ Printing.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .photo7 {
+            background-image: url(./Wall\ Clock.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .photo8 {
+            background-image: url(./3D.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
     </style>
 </head>
 <body>
@@ -85,6 +158,57 @@
         <div class="search">
             <input type="text" placeholder="Search">
             <i class="material-icons search1">search</i>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="photo photo1">
+            <!-- <img src="https://scontent.fkhi2-2.fna.fbcdn.net/v/t1.18169-9/408151_559899244026187_248695056_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=19026a&_nc_ohc=j7g2vY6_eSQAX_EC5N_&_nc_ht=scontent.fkhi2-2.fna&oh=0d0c61563a5e2b32def67aa6b2729e25&oe=61B675B9" alt=""> -->
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>The Name Of Quality</p>
+            </div>
+        </div>
+        <div class="photo photo2">
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>Desktop Banner X Stand</p>
+            </div>
+        </div>
+        <div class="photo photo3">
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>Engraving</p>
+            </div>
+        </div>
+        <div class="photo photo4">
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>Wooden Pen Engraving</p>
+            </div>
+        </div>
+        <div class="photo photo5">
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>Key Chain Leaser Cutting</p>
+            </div>
+        </div>
+        <div class="photo photo6">
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>Cup Printing</p>
+            </div>
+        </div>
+        <div class="photo photo7">
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>Wall Clock</p>
+            </div>
+        </div>
+        <div class="photo photo8">
+            <div class="content">
+                <h2>HKR Enterprices</h2>
+                <p>3D Sign</p>
+            </div>
         </div>
     </div>
 </body>
